@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+id = "oxyremesher"
+version = "0.1.0"
+name = "OxyRemesher"
+tagline = "Build a quad mesh from a sculpt"
+maintainer = "OxyPlugins contributors"
+type = "add-on"
+website = "https://github.com/crisprintsstuff/OxyPlugins"
+tags = ["Mesh", "Modeling"]
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+[permissions]
+files = "Exchange mesh geometry with a local Blender worker"
